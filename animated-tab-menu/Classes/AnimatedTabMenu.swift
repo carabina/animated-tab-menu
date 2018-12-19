@@ -48,8 +48,7 @@ open class AnimatedTabMenu: UIView {
         super.layoutSubviews()
         self.addTabButtons()
         self.addConstraintForSubTabs()
-        self.testAddBottomLine()
-        addBottomLine()
+        
     }
     private func addBottomLine() {
         let line = UIView()
@@ -162,6 +161,8 @@ open class AnimatedTabMenu: UIView {
             make.edges.equalTo(scrollView)
             make.height.equalTo(scrollView)
         }
+        self.testAddBottomLine()
+        addBottomLine()
     }
     
     private func addTabButtons() {
