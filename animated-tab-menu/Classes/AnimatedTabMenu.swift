@@ -120,7 +120,13 @@ open class AnimatedTabMenu: UIView {
     }
     public func setSelectedSegmentIndex(_ index: UInt,progress:CGFloat) {
         if self.currentSelectIndex != index {
-            self.updateUI(index: Int(index), progress: progress)
+            if progress == 1 {
+                UIView.animate(withDuration: self.animationInterval) {
+                    self.updateUI(index: Int(index), progress: progress)
+                }
+            } else {
+                self.updateUI(index: Int(index), progress: progress)
+            }
         }
     }
     /// 设置常规字号
