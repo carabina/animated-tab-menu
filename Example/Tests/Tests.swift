@@ -1,5 +1,4 @@
 import XCTest
-import animated-tab-menu
 
 class Tests: XCTestCase {
     

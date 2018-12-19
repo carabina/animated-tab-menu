@@ -1,15 +1,22 @@
 PODS:
-  - animated-tab-menu (0.1.0)
+  - animated-tab-menu (0.0.1):
+    - SnapKit
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - animated-tab-menu (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
 
 EXTERNAL SOURCES:
   animated-tab-menu:
     :path: "../"
 
 SPEC CHECKSUMS:
-  animated-tab-menu: 447f83d6b3c1065b8b391c2403204b40f99e5a37
+  animated-tab-menu: e1e912e886be3722ec08aa3782bab857e32e60e2
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: eefefa4b9db31ac24b677bf3aecfd0c05b3f7f75
 

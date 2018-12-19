@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2B505ABE45E363B2D667B0C227660CB6"
+               BlueprintIdentifier = "F3B9C752A40571A936BE2058819711A5"
                BuildableName = "animated_tab_menu.framework"
                BlueprintName = "animated-tab-menu"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2B505ABE45E363B2D667B0C227660CB6"
+            BlueprintIdentifier = "F3B9C752A40571A936BE2058819711A5"
             BuildableName = "animated_tab_menu.framework"
             BlueprintName = "animated-tab-menu"
             ReferencedContainer = "container:Pods.xcodeproj">
