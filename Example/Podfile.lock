@@ -1,0 +1,16 @@
+PODS:
+  - animated-tab-menu (0.1.0)
+
+DEPENDENCIES:
+  - animated-tab-menu (from `../`)
+
+EXTERNAL SOURCES:
+  animated-tab-menu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  animated-tab-menu: 447f83d6b3c1065b8b391c2403204b40f99e5a37
+
+PODFILE CHECKSUM: eefefa4b9db31ac24b677bf3aecfd0c05b3f7f75
+
+COCOAPODS: 1.6.0.beta.2

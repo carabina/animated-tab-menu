@@ -1,0 +1,6 @@
+framework module Pods_animated_tab_menu_Tests {
+  umbrella header "Pods-animated-tab-menu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'animated-tab-menu_Example' do
+  pod 'animated-tab-menu', :path => '../'
+
+  target 'animated-tab-menu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

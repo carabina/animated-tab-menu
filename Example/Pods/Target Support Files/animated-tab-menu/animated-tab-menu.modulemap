@@ -1,0 +1,6 @@
+framework module animated_tab_menu {
+  umbrella header "animated-tab-menu-umbrella.h"
+
+  export *
+  module * { export * }
+}
